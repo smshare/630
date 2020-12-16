@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+	vertical-align: baseline;
+	font-style: normal;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 640px;
+	font-size: 12px;
+	font-family: Microsoft Yahei, Arial, Simsun, Helvetica, Segoe UI, sans-serif;
+	color: #404040;
+	background-color: #f0f0f0;
+}
+
+img {
+	border: 0
+}
+
+ul,
+ol,
+li,
+dt,
+dl,
+dd {
+	text-decoration: none;
+	list-style: none;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #373737;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #373737
+}
+
+.logo_img {
+	content: url(/css/skin/images/logo.png);
+}
+
+.headLinks_login_user {
+	content: url(/css/skin/images/user.png);
+}
+
+.headLinks_mybook_sheet{
+	content: url(/css/skin/images/sheet.png);
+}
+
+.sort{
+	margin: 0 auto;
+	content: url(/css/skin/images/nav-icon01.png);
+}
+
+
+.top {
+	margin: 0 auto;
+	content: url(/css/skin/images/nav-icon02.png);
+}
+
+.top_postdate_1{
+	margin: 0 auto;
+	content: url(/css/skin/images/nav-icon03.png);
+}
+
+.full_1 {
+	margin: 0 auto;
+	content: url(/css/skin/images/nav-icon04.png);
+}
+
+.columeTitle>.recommend {
+	content: url(/css/skin/images/favorate-icon.png);
+}
+
+.columeTitle>.clicks{
+	content: url(/css/skin/images/hot-icon.png);
+}
+
+.columeTitle>.update {
+	content: url(/css/skin/images/rank-icon.png);
+}
+.home>.gohome {
+	content: url(/css/skin/images/home.png);
+}
+.sheet>.mybook {
+	content: url(/css/skin/images/sheet.png);
+}
